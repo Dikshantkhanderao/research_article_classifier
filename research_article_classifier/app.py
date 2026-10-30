@@ -115,3 +115,4 @@ st.caption(
     "Academic project baseline. Predictions are model estimates and should be reviewed "
     "before using them as formal publication classifications."
 )
+
