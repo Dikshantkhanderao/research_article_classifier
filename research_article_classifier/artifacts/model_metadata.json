@@ -1,0 +1,24 @@
+{
+  "project": "Research Article Classification",
+  "classes": [
+    "Science",
+    "Business",
+    "Social Science"
+  ],
+  "selected_model": "Random Forest",
+  "test_accuracy": 0.9627118644067797,
+  "training_records": 1177,
+  "test_records": 295,
+  "total_records": 1472,
+  "preprocessing": "HTML unescape, lowercase, URL/email/tag removal, punctuation cleanup, stopword removal using scikit-learn English stopwords plus project-specific words; tokens shorter than 3 and numeric-only tokens removed. No WordNet lemmatization is used in this deployment bundle.",
+  "tfidf": {
+    "max_features": 10000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95
+  },
+  "random_state": 42
+}
